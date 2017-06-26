@@ -195,7 +195,6 @@ consts_misc = [
         'value': 'SharedFunctionInfo::StartPositionBits::kMask' },
     { 'name': 'sharedfunctioninfo_start_position_shift',
         'value': 'SharedFunctionInfo::StartPositionBits::kShift' },
-
     { 'name': 'jsarray_buffer_was_neutered_mask',
         'value': 'JSArrayBuffer::WasNeutered::kMask' },
     { 'name': 'jsarray_buffer_was_neutered_shift',
@@ -266,6 +265,7 @@ extras_accessors = [
     'SeqTwoByteString, chars, char, kHeaderSize',
     'SharedFunctionInfo, code, Code, kCodeOffset',
     'SharedFunctionInfo, scope_info, ScopeInfo, kScopeInfoOffset',
+    'SharedFunctionInfo, function_token_position, int, kFunctionTokenPositionOffset',
     'SlicedString, parent, String, kParentOffset',
     'Code, instruction_start, uintptr_t, kHeaderSize',
     'Code, instruction_size, int, kInstructionSizeOffset',
